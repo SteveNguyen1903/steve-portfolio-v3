@@ -13,3 +13,15 @@ html.dark {
 .borderBlack {
 	@apply border border-black/10;
 }
+
+.dark .swiper-pagination-bullet-active {
+	background-color: #fff !important;
+}
+
+.dark .swiper-pagination-bullet {
+	background-color: #ffffffaf !important;
+}
+
+.swiper-pagination-bullet-active {
+	background-color: rgba(3, 7, 18, 0.479) !important;
+}

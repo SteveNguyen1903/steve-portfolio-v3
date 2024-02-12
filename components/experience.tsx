@@ -9,7 +9,7 @@ import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-	const { ref } = useSectionInView("Experience", 0.5);
+	const { ref } = useSectionInView("Experience", 0);
 	const { theme } = useTheme();
 
 	return (
@@ -38,6 +38,13 @@ export default function Experience() {
 							<h3 className="font-semibold capitalize">{item.title}</h3>
 							<p className="font-normal !mt-0">{item.location}</p>
 							<p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">{item.description}</p>
+							<ul className="mt-5 list-disc ml-5 space-y-2">
+								{item.tasks.map((item, index) => (
+									<li className="text-gray-700 dark:text-white/75 text-[14px] pl-1 tracking-wider" key={`task-${index}`}>
+										{item}
+									</li>
+								))}
+							</ul>
 						</VerticalTimelineElement>
 					</React.Fragment>
 				))}

@@ -29,7 +29,7 @@ const Intro = () => {
 			</div>
 
 			<motion.h1 className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl" initial={{ opacity: 0, y: 100 }} animate={{ opacity: 1, y: 0 }}>
-				<span className="font-bold">Hello, I'm Steve.</span> I'm a <span className="font-bold">full-stack developer</span> with <span className="font-bold">4 years</span> of experience. I enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
+				<span className="font-bold">Hello, I'm Steve.</span> I'm a <span className="font-bold">web developer</span> with <span className="font-bold">4 years</span> of experience. I enjoy building <span className="italic">sites & apps</span>. My focus is{" "}
 				<span className="underline">React (Next.js) </span>.
 			</motion.h1>
 
@@ -50,7 +50,7 @@ const Intro = () => {
 
 				<a
 					className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-					href="https://linkedin.com"
+					href="https://www.linkedin.com/in/steve-nguyen-1a1760248/"
 					target="_blank"
 					rel="noopener"
 					title="linkedIn">
@@ -59,7 +59,7 @@ const Intro = () => {
 
 				<a
 					className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-					href="https://linkedin.com"
+					href="https://github.com/SteveNguyen1903"
 					target="_blank"
 					rel="noopener"
 					title="github">
